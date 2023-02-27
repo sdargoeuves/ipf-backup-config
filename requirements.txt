@@ -1,0 +1,4 @@
+ipfabric==6.0.10
+dotenv
+typer
+loguru
