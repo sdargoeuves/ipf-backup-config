@@ -1,5 +1,7 @@
 # backup-config.py
 
+**This script is no longer maintained here, please check the one in our [Gitlab repo](https://gitlab.com/ip-fabric/integrations/scripts/ipf-export-device-config)**
+
 Python3 script to collect available configuration files in IP Fabric and store them in a (Git) folfer
 
 ## How to install
@@ -7,7 +9,7 @@ Python3 script to collect available configuration files in IP Fabric and store t
 Install ipfabric Python module and dependencies. Make sure the version of the `ipfabric` SDK matches your version of IP Fabric.
 
 ```shell
-pip install -U ipfabric==6.0.10 dotenv typer loguru
+pip install -U ipfabric==6.0.10 python-dotenv typer loguru
 ```
 
 or
